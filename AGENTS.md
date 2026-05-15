@@ -107,6 +107,12 @@ Conventional commits enforced via commitlint (`.commitlintrc.js`):
 - Types: `build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, Release-As`
 - Header max length: 100 characters
 
+## Knowledge Base
+
+- `memory/` is a **symlink** to an external wiki folder, **not** tracked in git.
+- All organized markdown documents (learning paths, notes, design docs, etc.) go into `memory/`.
+- When generating summaries or study materials, write them as `.md` files in `memory/`.
+
 ## Key Gotchas
 
 - `setup.py` only handles Cython Extension definitions; `pyproject.toml` has all metadata and dependencies.
